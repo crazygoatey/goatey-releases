@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "id": "goateygames",
+      "name": "GoateyGames",
+      "description": "A little arcade. A lot of play.",
+      "category": "Games",
+      "color": "#bd9bff",
+      "symbol": "✣",
+      "platforms": {
+        "android": {
+          "version": "0.2.0",
+          "url": "https://github.com/crazygoatey/goatey-releases/releases/download/apps-2026-11-02/goateygames-0.2.0-android.apk",
+          "size": 17887109,
+          "sha256": "1b7e9838edd70dd87a758dc26fb2b31edfff4698491dbabc5d79550ae1338773",
+          "packageName": "com.goateygames.app"
+        }
+      }
+    },
+    {
+      "id": "goateymaps",
+      "name": "GoateyMaps",
+      "description": "Find your place. Explore a little further.",
+      "category": "Maps & exploration",
+      "color": "#88d6aa",
+      "symbol": "⌁",
+      "platforms": {
+        "linux": {
+          "version": "0.0.4",
+          "url": "https://github.com/crazygoatey/goatey-releases/releases/download/apps-2026-11-02/goateymaps-0.0.4-linux.AppImage",
+          "size": 128253102,
+          "sha256": "f55c7e782a4c63d84a46151ab4e912f6a0b3a7bd415cac2d387b10d71e57ed3b",
+          "arch": "x64"
+        }
+      }
+    },
+    {
+      "id": "goateychat",
+      "name": "GoateyChat",
+      "description": "Your people, one conversation away.",
+      "category": "Communication",
+      "color": "#8dbdff",
+      "symbol": "☏",
+      "platforms": {
+        "linux": {
+          "version": "0.4.4",
+          "url": "https://github.com/crazygoatey/goatey-releases/releases/download/apps-2026-11-02/goateychat-0.4.4-linux.AppImage",
+          "size": 113904120,
+          "sha256": "51af3440765388d8f4a6a8bb616c3c2f63d14297c18d0bb5b14fad18e4370c93",
+          "arch": "x64"
+        },
+        "android": {
+          "version": "0.4.4",
+          "url": "https://github.com/crazygoatey/goatey-releases/releases/download/apps-2026-11-02/goateychat-0.4.4-android.apk",
+          "size": 53515656,
+          "sha256": "7a6c3fa074c2138466000a83ea6804bedd369dbe55b88b6534f6ec68ead982c8",
+          "packageName": "app.goateychat.desktop",
+          "arch": "arm64"
+        }
+      }
+    }
+  ]
+}
